@@ -1,0 +1,1 @@
+how does this code work? the first loop takes the first letters of the first then second alternatively and then if either one of them is longer, the second loop (depends on which is longer) takes the rest of the longer one (str1/str2)
