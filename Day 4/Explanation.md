@@ -1,0 +1,1 @@
+how does this code work? the for loop checks all the items in the array and checks both directions (left and right) if theyre the edge/they already have something placed on them (which would represent 1) and then, if all the parameters are passed, they place a plant and then subtract a plan from what they're holding (n--;)
