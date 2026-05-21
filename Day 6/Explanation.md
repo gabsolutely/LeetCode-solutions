@@ -1,3 +1,0 @@
-How does this code work? we have two pointers, nums[i] and nums[lastNonZero]. as it goes through the loop it scans the individual arrays looking for a non zero, once it does that, it swaps it with the lastNonZero that locks onto a value that is in the front of non zeros (or in this case, it starts at the very front because at the front, it's zero, and it starts at 0) until this continue to the end
-
-oversimplified: one pointer stays behind, 2nd pointer continues. if it's 0, 2nd pointer goes and then 1st pointer stays there. if it's non zero, they switch places, 1st pointer steps forward, and the cycle continues
