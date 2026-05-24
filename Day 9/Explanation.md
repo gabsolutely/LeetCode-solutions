@@ -1,0 +1,3 @@
+what does the question mean? I know it seems confusing but basically, the biker starts at 0 altitude. the numbers that are presented are the gain/loss of an altitude. your goal is the find the highest altitude through that gain/loss, seems simple enough but when I first read the question it seemed pretty tricky lol
+--------------
+how does this code work? you get two variables, highest and altitude. you basically just go through the array of numbers, calculate, compare the highest, and then save the highest altitude. once all that is done, return the highest attitude. (had fun with this one, I like the gain/loss thingy)
