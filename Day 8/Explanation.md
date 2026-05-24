@@ -1,0 +1,3 @@
+what is the question even saying? it's saying that if you were to pick (k) amount of nums in an array (in order) which order would have the highest number if divided by (k)?
+------------------
+how does this code work? you have a variable called currSum (current Sum), in the loop, you keep looping until you get that (k) amount of nums. once you've done that, you introduce a new variable called maxSum, and in the second loop, you get the sliding window (add one to the front, remove the back nums) and every time you go through the loop, it compares the window to see which one is bigger. once the loop (or in his case, the nums.size()) you take the maxSum that stayed through all of that and divide it by (k)
