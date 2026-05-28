@@ -1,3 +1,0 @@
-what does the question mean? it's saying that if you were to have an array of integers, how would you find the left most pivot index where the left and right side of the array if added together, will bring the equal amount of sum. and then return that pivot index (nums[i]), if there's no pivot index found, return -1
--------------------
-how does the code work? at the first loop, you calculate the total sum of the arrays, then in the second loop, you go through every integer in the array, calculate the right sum, compared if it equals to the left sum. if not, you move on through the loop, if it is, return that nums[i]. it keeps going till it either eventually finds one, or doesn't and returns -1.
