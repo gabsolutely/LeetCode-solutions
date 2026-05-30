@@ -1,0 +1,3 @@
+what does the question mean? It's saying that if you were to be given two arrays, how would you find answer [0] (integers that are in nums1 but not in nums2) and answer [1] (integers that are in nums2 but not in nums1)
+-----------------
+how does the code work? at the start, the code converts the two arrays into sets, for easier lookup and automatically deletes duplicates. after that, it sets up two loops, they check if the set1[n] is present in the set2 and vice versa. if an integer is present in one set but not in the other, it gets added to the diff array (this goes for both of the loops). if not, it gets disregarded. once the loop is done, it returns both of the diffs.
