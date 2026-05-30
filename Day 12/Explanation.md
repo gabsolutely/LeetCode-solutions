@@ -1,0 +1,3 @@
+what does the question mean? it's saying that if you were given an array, how would you identify if the given values inside have unique frequencies (e.g, appeared one time, two, etc) if all the given values do, return true, if not, return false.
+--------------
+how does the code work? first off, you analyze all the values in the array and because we have the "unordered_map freq", we can use it to count the frequency of each number. after that, we used "unordered_set seen" to check for duplicated frequencies (if that frequency has already been seen or not), if we find one, return false. if not, we insert that to the count. it keeps the loop going until we eventually return true.
