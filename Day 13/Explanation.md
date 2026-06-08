@@ -1,0 +1,3 @@
+what does the question mean? it's saying that if you have a RecentCounter class where it counts the recent request you have in a given time frame, how would you figure out what time is the recent request but ONLY on the given time period, which is 3 seconds (or 3000 milliseconds) and anything past that, you disregard.
+------------
+how does the code work? first off, you have a queue, which will hold all the timestamps of the recent pings/requests. after that, you calculate your recent pings and remove old pings that happened before that 3 seconds window. once you've done that, the queue now only contains recent pings. after all of that, you return the lenght of that queue (which is the number of recent pings with all the outdated ones removed)
