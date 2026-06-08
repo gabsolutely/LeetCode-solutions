@@ -1,0 +1,5 @@
+what does the question mean? it's saying that given the head on a one linked list, reverse it, then return it. seems simple enough right?🥲
+--------------
+how does the code work (Iterative)? first of all, you declare current node and the previous node (which is nullptr for now)and then first off in the loop, you store the next node, after that you reverse the link, and then move prev and curr forward, do that until you return the new head.
+------------
+how does the code work (recursion)? alright so bear with me here, I'll try to simplify it and not go line by line but basically, in the if statement, it checks if the head [] and then just returns the head. after that, you basically just get the very first head, put that back, and that get the second first head, put that Infront of the first one, and then rinse and repeat until you eventually get it all and return newHead.
