@@ -1,0 +1,3 @@
+what does the question mean? it's saying that given an array, give an answer that is equal to all the elements of integers in the array except itself without using a division expression.
+--------------
+how does the code work? (bear with me here,) you have two loops, first one is you're basically just trying to figure out what product of the LEFT integers are. the second one, you're trying to figure out the product of the RIGHT. and then just combine them and that's your answer (this is very simple, but that's the gist of it)
